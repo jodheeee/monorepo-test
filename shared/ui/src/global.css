@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .common-view-width {
+    @apply w-92% lg:w-1140 mx-auto;
+  }
+  .main-view-width {
+    @apply w-92% main:w-753 mx-auto;
+  }
+  .header-3 {
+    @apply text-18 font-semibold leading-170;
+  }
+  .title-3 {
+    @apply text-15 font-normal leading-150;
+  }
+  .title-4 {
+    @apply text-15 font-semibold leading-150;
+  }
+  .body-1 {
+    @apply text-15 font-normal leading-165;
+  }
+  .body-2 {
+    @apply text-12 font-medium leading-145;
+  }
+  .table-1 {
+    @apply text-14 font-normal leading-150;
+  }
+  .gray-info-text {
+    @apply body-2 text-black/50;
+  }
+  .blue-link {
+    @apply text-blue underline cursor-pointer;
+  }
+  .red-link {
+    @apply text-red underline cursor-pointer;
+  }
+  .full-hr {
+    @apply -mx-33 bg-lightgray border-0 h-1;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .warning-text {
+    @apply body-2 text-red;
+  }
+}

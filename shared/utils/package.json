@@ -1,0 +1,5 @@
+{
+  "name": "@han-river-front/utils",
+  "packageManager": "yarn@4.0.2",
+  "main": "src/index.ts"
+}
